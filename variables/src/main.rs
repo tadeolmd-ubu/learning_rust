@@ -1,5 +1,16 @@
 use std::io;
 
+
+/*
+-Esta es una practica sencilla sobre los tipos de datos que tiene el libro
+-Primero inicializo las variables como strings
+-Leo todos los datos que voy a necesitar
+-Inicializo strings para los kms semanales que corre la persona
+-Le paso a un array los kms corridos en la semana
+-Calculo el promedio de kms diarios de la semana
+-Calculo el IMC 
+-Y por ultimo si cumplio la meta de 25 kms en toda la semana
+*/
 fn main() {
     let mut nombre = String::new();
     let mut edad = String::new();
